@@ -1,0 +1,45 @@
+<!--
+  ~ Copyright (c) 2015. @WadehraArshpreet
+  ~
+  ~ Created By Arshpreet Singh Wadehra 9/2/15 5:57 PM
+  -->
+
+<resources>
+    <string name="app_name">MyLibrary</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="logOut">Logout</string>
+    <string name="title_activity_student">Students</string>
+    <string name="title_activity_splash__screen">MyLibrary</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scan_bar_code">ISBN | IssueBook</string>
+    <string name="scanCancel">Cancel</string>
+    <string name="title_activity_login__form">Login_Form</string>
+    <string name="title_activity_select_user_type">SelectUserType</string>
+    <string name="scanFlash">Flash</string>
+    <string name="scanAddISBN">Add Code Manually</string>
+    <string name="permlab_flashlight">FLASH LIGHT</string>
+    <string name="permdesc_flashlight">Flash Light Used by BarCode Scanner</string>
+    <string name="book_title_heading_issue_book">BOOK TITLE</string>
+
+    <string-array name="NavigationMenuItems">
+        <item>Home</item>
+        <item>Issue Book</item>
+        <item>Return Book</item>
+        <item>User Details</item>
+        <item>Search Book</item>
+        <item>Add Book</item>
+        <item>Add User</item>
+        <item>Edit Profile</item>
+    </string-array>
+    <string-array name="SubNavigationMenuItems">
+        <item>Your Details</item>
+        <item>Change Password</item>
+    </string-array>
+    <string name="title_activity_detail_search_result">DetailSearchResult</string>
+</resources>

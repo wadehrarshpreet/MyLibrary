@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015. @WadehraArshpreet
+  ~
+  ~ Created By Arshpreet Singh Wadehra 9/2/15 5:57 PM
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="true">
+<scale
+    android:fromXScale="0.5"
+    android:toXScale="2.5"
+    android:fromYScale="0.5"
+    android:toYScale="2.5"
+    android:duration="4000"
+    />
+    <alpha
+        android:fromAlpha="1"
+        android:toAlpha="0.2"
+        android:duration="4000"
+        />
+    <translate
+        android:fillAfter="true"
+        android:fromXDelta="@android:integer/config_longAnimTime"
+        android:fromYDelta="@android:integer/config_mediumAnimTime"
+        android:duration="3000"
+        />
+</set>

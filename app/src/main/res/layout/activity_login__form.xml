@@ -1,0 +1,100 @@
+<!--
+  ~ Copyright (c) 2015. @WadehraArshpreet
+  ~
+  ~ Created By Arshpreet Singh Wadehra 9/2/15 5:57 PM
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.davlib.mylibrary.Login_Form">
+
+    <ImageView
+        android:id="@+id/layoutImg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/login_t"
+        android:elevation="30dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:elevation="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/layoutImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/round_corners"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:translationZ="40dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_person_black_48dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Login Id"
+                android:id="@+id/loginId"
+                android:singleLine="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textSize="20sp" >
+                </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_games_black_48dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:id="@+id/loginPassword"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_click"
+                android:textSize="20sp"
+                android:id="@+id/letMeLogin"
+                android:text="Log In" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

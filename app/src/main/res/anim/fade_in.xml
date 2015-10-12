@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015.
+  ~ Created By Arshpreet Wadehra on 9/19/15 6:50 PM
+  ~ Follow @WadehrArshpreet
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:fromAlpha="0" android:toAlpha="1" android:startOffset="300" android:duration="400"/>
+</set>

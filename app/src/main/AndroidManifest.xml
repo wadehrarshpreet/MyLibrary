@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015. @WadehraArshpreet
+  ~
+  ~ Created By Arshpreet Singh Wadehra 9/2/15 5:57 PM
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.davlib.mylibrary"
+    android:installLocation="auto" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission
+        android:name="android.permission.FLASHLIGHT"
+        android:description="@string/permdesc_flashlight"
+        android:label="@string/permlab_flashlight"
+        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+        android:protectionLevel="normal" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Librarian"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/LightAppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Student"
+            android:label="@string/title_activity_student"
+            android:screenOrientation="portrait"
+            android:theme="@style/DarkAppTheme" />
+        <activity
+            android:name=".Splash_Screen"
+            android:label="@string/title_activity_splash__screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".ScanBarCode"
+            android:label="@string/title_activity_scan_bar_code"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login_Form"
+            android:label="@string/title_activity_login__form"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".SelectUserType"
+            android:label="@string/title_activity_select_user_type"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".DetailSearchResult"
+            android:label="@string/title_activity_detail_search_result" >
+        </activity>
+    </application>
+
+</manifest>

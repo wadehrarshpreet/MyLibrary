@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015. @WadehraArshpreet
+  ~
+  ~ Created By Arshpreet Singh Wadehra 9/2/15 5:57 PM
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/navIcon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/navTitle"
+        android:text="Template"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/abc_input_method_navigation_guard"/>
+</LinearLayout>

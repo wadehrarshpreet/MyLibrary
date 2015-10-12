@@ -1,0 +1,99 @@
+<!--
+  ~ Copyright (c) 2015. @WadehraArshpreet
+  ~
+  ~ Created By Arshpreet Singh Wadehra 9/2/15 5:57 PM
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.davlib.mylibrary.SelectUserType">
+
+    <ImageView
+        android:id="@+id/layoutImg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/select_decide"
+        android:elevation="30dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="#70ffffff"
+        android:id="@+id/ask"
+        android:elevation="40dp"
+        android:text="You Are a:-"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="40dp"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="60dp"
+    android:layout_alignBottom="@+id/layoutImg"
+    android:layout_marginBottom="120dp"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:src="@drawable/lib_select"
+        android:id="@+id/libIcon"
+        android:clickable="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIBRARIAN"
+        android:textSize="30sp"
+        android:id="@+id/lib"
+        android:alpha="0"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#70ffffff"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="60dp"
+        android:layout_alignRight="@+id/layoutImg"
+        android:layout_alignBottom="@+id/layoutImg"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:clickable="true"
+            android:id="@+id/userIcon"
+            android:src="@drawable/user_select"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USER"
+            android:textSize="30sp"
+            android:id="@+id/user"
+            android:alpha="0"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#70ffffff"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:elevation="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/layoutImg"
+        android:id="@+id/divIcon"
+        android:alpha="0"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/select_separator"/>
+
+
+</RelativeLayout>

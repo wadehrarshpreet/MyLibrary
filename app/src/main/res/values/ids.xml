@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015. @WadehraArshpreet
+  ~
+  ~ Created By Arshpreet Singh Wadehra 9/2/15 5:57 PM
+  -->
+
+<resources>
+    <item name="cancel_scan" type="id">cancel_bar_code_scan</item>
+    <item name="flash_scan" type="id">scan_isbn_flash_boolean</item>
+    <item name="manual_scan" type="id">isbn_manual_insert</item>
+    <item name="imeManualISBN" type="id">100</item>
+    <item name="imeManualUserId" type="id">101</item>
+    <item name="imeSearch" type="id">102</item>
+    <item name="imeChange" type="id">103</item>
+</resources>

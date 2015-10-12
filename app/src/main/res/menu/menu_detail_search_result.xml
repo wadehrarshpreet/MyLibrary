@@ -1,0 +1,11 @@
+<!--
+  ~ Copyright (c) 2015.
+  ~ Created By Arshpreet Wadehra on 9/24/15 11:08 PM
+  ~ Follow @WadehrArshpreet
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.davlib.mylibrary.DetailSearchResult">
+</menu>

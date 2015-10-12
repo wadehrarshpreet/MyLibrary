@@ -1,0 +1,88 @@
+<!--
+  ~ Copyright (c) 2015.
+  ~ Created By Arshpreet Wadehra on 9/19/15 7:55 PM
+  ~ Follow @WadehrArshpreet
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.davlib.mylibrary.UserCodeManual">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corners"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="Please Enter User ID"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/isbnNum"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="35"
+                    android:elevation="20dp"
+                    android:hint="XXX"
+                    android:maxLength="3"
+                    android:imeActionId="@+id/imeManualISBN"
+                    android:inputType="number"
+                    android:padding="20dp"
+                    android:singleLine="true"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="42"
+                    android:padding="20dp"
+                    android:text="/"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/isbnNum2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="20dp"
+                    android:hint="XX"
+                    android:maxLength="2"
+                    android:imeActionId="@+id/imeManualUserId"
+                    android:inputType="number"
+                    android:padding="20dp"
+                    android:singleLine="true"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
